@@ -6,17 +6,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import MonthContainer from './MonthContainer';
 
-// import CalenderNav from './CalenderNav';
-// import CalenderDisplay from './CalenderDisplay';
-
-// const styles = makeStyles({
-//     flexContainer: {
-//         display: 'flex',
-//         flexDirection: 'column',
-//         flexGrow: '2'
-//     }
-// })
-
 
 const useStyles = makeStyles(theme => ({
     root: {
