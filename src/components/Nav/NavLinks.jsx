@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
+import { Link } from 'react-router-dom';
 
 const styles = makeStyles({
     navLinks: {
@@ -15,8 +16,8 @@ function NavLinks() {
     const classes = styles();
     return (
         <div className={classes.navLinks}>
-            <p className={classes.navItem}>Item 1</p>
-            <p className={classes.navItem}>Item 2</p>
+            <Link className={classes.navItem} to="/calender">Calender</Link>
+            <Link className={classes.navItem} to="/produce">Produce</Link>
         </div>
     )
 }
