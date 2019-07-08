@@ -17,6 +17,7 @@ function TopNav() {
     return (
         <div className={classes.topNav}>
             <NavHeader/>
+            <NavLinks/>
         </div>
     );
 };
